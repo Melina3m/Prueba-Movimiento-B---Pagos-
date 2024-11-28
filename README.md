@@ -17,10 +17,7 @@ Este proyecto simula la autenticación de un usuario y el procesamiento de un pa
 ## Ejecuta el codigo
 python payment_simulation.py
 
-## Datos de autenticación:
-Para realizar la autenticación con la API de reqres.in, se utilizan las siguientes credenciales de prueba:
 
-Email: eve.holt@reqres.in
-Contraseña: cityslicka
-
-Estos datos son proporcionados por la propia API para pruebas de autenticación.
+## Archivos Ignorados:
+- **.venv/**: El directorio que contiene el entorno virtual (usado para gestionar las dependencias de Python) no se sube al repositorio.
+- **.env**: El archivo que contiene información sensible (como las credenciales y los tokens de autenticación) está ignorado y no debe ser compartido públicamente.
